@@ -1,0 +1,653 @@
+header{
+    background-color: #000000;
+    position: relative;
+}
+/* Reset some default browser styles */
+body, h1, h2, h3, p, img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.box {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Reset some default styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Center the boxes and give them some styling */
+
+.box {
+  text-align: center;
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.box:hover {
+  transform: scale(1.1);
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.skill {
+  text-align: center;
+}
+
+.skill img {
+  max-width: 100px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.box img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.box p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #555;
+}
+
+/* Add more specific styles as needed */
+
+
+/* تصميم عناصر المهارات */
+.box {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: calc(33.33% - 40px);
+  transition: transform 0.3s ease-in-out;
+}
+/* تحسينات على نص تأثير الكتابة التلقائي */
+.typing-effect {
+  font-size: 24px; /* حجم الخط */
+  font-weight: bold; /* سمك الخط */
+  color: #fff; /* لون الخط */
+  margin-top: 10px; /* هامش علوي */
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.box img {
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.box p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* ... (تصحيح لبقية التصميم) ... */
+
+header .img1{
+    position: absolute;
+    top: 0;
+    left: 30%;
+    width: 20%;
+}
+html{
+    max-height: 100vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth; 
+    animation: slowScroll 10s infinite alternate; 
+}
+
+
+header .navbar-brand{
+    font-size: 30px;
+    font-family: 'Dancing Script',cursive;
+}
+header .nav-link{
+    color: #fff;
+    font-size: 16px;
+    margin: 0 20px;
+}
+#typing-text{
+    font-size: 30px;
+}
+/* Styles for screens wider than 768px (tablets and larger) */
+@media (min-width: 399) {
+  img{
+    width: 100%;
+  }
+    .hero {
+
+      padding: 80px;
+    }
+    #box2 p{
+      margin-right: 40px;
+    }
+ 
+  }
+  @media (max-width: 453) {
+    img{
+      width: 100%;
+    }
+      .hero {
+  
+        padding: 80px;
+      }
+      #box2 p{
+        margin-right: 60px;
+      }
+   
+    }
+  /* Styles for screens up to 767px (mobile devices) */
+  @media (max-width: 399) {
+    img{
+      width: 100%;
+    }
+    .hero {
+      padding: 40px;
+    }
+  
+  
+  }
+  
+.hero {
+    margin-left: 34%;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    color: #fff;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    line-height: 1.5;
+    border-right: 2px solid #000;
+    padding-right: 8px;
+    animation: blink-caret 0.75s step-end infinite;
+  }
+  
+ 
+.hero2{
+    padding: 40px;
+}
+.icons{
+    margin-left: 50%;
+    background-color: #fff;
+color: #1900ff;
+}
+.hero2{
+    margin-left: 40%;
+}
+.social-link {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.social-icon {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s, box-shadow 0.3s; 
+}
+
+.social-icon:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+.span{
+    color:red ;
+}
+.learn{
+    padding-top: 50px;
+  }
+  #scrollspyHeading2 {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  #box1{
+    transition: transform 0.3s ease-in-out;
+  
+  }
+  #box1 img{
+    transition: transform 0.3s ease-in-out;
+  
+  }
+  #box1:hover{
+  
+    transform: scale(1.1);
+  
+  }
+  #box1 img:hover{
+    
+    transform: scale(1.1);
+  
+  }
+  #box2{
+    transform: scale(1.1);
+  
+  }
+  #box2:hover{
+    transform: scale(1.2);
+  
+  }
+  #box3{
+    transition: transform 0.3s ease-in-out;
+  
+  }
+  #box3:hover{
+    transform: scale(1.1);
+  
+  }
+  
+  .box {
+  
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: calc(33.33% - 40px);
+  }
+  
+  .box img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .box p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .box button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+
+/* styles.css */
+
+#container {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+  }
+  
+  form {
+    text-align: center;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    #container {
+      width: 80%;
+    }
+
+  }
+  @media (max-width: 768px) {
+        .hero h1{
+            display: flex;
+            margin-left: 40px;
+        }
+
+  }
+.pp{
+    font-weight: bold;
+    color: #06fff3;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer h3 {
+    color: #f39c12;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.social-icon img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+/* إضافة تنسيق عام للنصوص والخلفية */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+/* تحسين هيدر الصفحة */
+header {
+    background-color: #000;
+}
+
+header .navbar-brand {
+    font-size: 36px;
+    font-family: 'Dancing Script', cursive;
+}
+
+header .nav-link {
+    color: #fff;
+    font-size: 18px;
+    margin: 0 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+header .nav-link:hover {
+    color: #f39c12;
+}
+
+/* تحسين العنصر الرئيسي */
+.hero h1 {
+    font-size: 36px;
+    color: #f39c12;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #fff;
+}
+
+/* تحسين الأيقونات الاجتماعية */
+.social-icon img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    border-radius: 50%;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* تحسين مربعات المهارات */
+.box {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: calc(33.33% - 40px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box img {
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.box p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* تحسين مربعات الأعمال */
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* تحسين نموذج الاتصال */
+#container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: auto;
+    width: 70%;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-size: 16px;
+}
+
+button {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e67e22;
+}
+
+/* تحسين الفوتر */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer h3 {
+    color: #f39c12;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    
+    font-size: 16px;
+}
+
+#toTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  #toTopButton:hover {
+    border-radius: 30px;
+  }
+
+  .portfolio-item {
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    position: relative;
+}
+
+.portfolio-item img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+
+
+
+.bottom-item {
+  width: 30%;
+  margin: 0 10px;
+}
+.bottom-item:hover .overlay {
+  opacity: 1;
+}
+.portfolio-item:hover .overlay {
+    opacity: 1;
+}
+
+.overlay h3, .overlay p {
+    color: white;
+    margin: 5px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.portfolio {
+    text-align: center;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.bottom-item {
+    width: 45%;
+    margin: 0 10px;
+}
